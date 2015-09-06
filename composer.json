@@ -1,0 +1,32 @@
+{
+	"name": "dmzx/totalattfilesize",
+	"type": "phpbb-extension",
+	"description": "This extension shows total attachments filezise on index.",
+	"homepage": "http://www.dmzx-web.net",
+	"version": "1.0.0",
+	"time": "2015-09-06",
+	"keywords": ["phpbb", "extension", "Total Attachments Filesize"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "dmzx",
+			"homepage": "http://www.dmzx-web.net",
+			"email": "info@dmzx-web.net",
+			"role": "Extension Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"extra": {
+		"display-name": "Total Attachments Filesize",
+		"soft-require": {
+			"phpbb/phpbb": "3.1.*"
+		},
+		"version-check": {
+			"host": "www.dmzx-web.net",
+			"directory": "/versions",
+			"filename": "totalattfilesize_version.json"
+		}
+	}
+}

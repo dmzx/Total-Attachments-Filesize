@@ -1,0 +1,10 @@
+services:
+    dmzx.totalattfilesize.listener:
+        class: dmzx\totalattfilesize\event\listener
+        arguments:
+            - @template
+            - @config
+            - @user
+            - @dbal.conn
+        tags:
+            - { name: event.listener }
