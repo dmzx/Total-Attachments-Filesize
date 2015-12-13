@@ -9,9 +9,6 @@
 
 namespace dmzx\totalattfilesize\event;
 
-/**
-* @ignore
-*/
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
@@ -21,7 +18,7 @@ class listener implements EventSubscriberInterface
 {
 	/** @var \phpbb\template\template */
 	protected $template;
-	
+
 	/** @var \phpbb\config\config */
 	protected $config;
 
@@ -30,6 +27,7 @@ class listener implements EventSubscriberInterface
 
 	/** @var \phpbb\db\driver\driver_interface */
 	protected $db;
+
 	/**
 	* Constructor
 	* @param \phpbb\template\template			$template
@@ -38,6 +36,7 @@ class listener implements EventSubscriberInterface
 	* @param \phpbb\db\driver\driver_interface	$db
 	*
 	*/
+
 	public function __construct(\phpbb\template\template $template, \phpbb\config\config $config, \phpbb\user $user, \phpbb\db\driver\driver_interface $db)
 	{
 		$this->template = $template;

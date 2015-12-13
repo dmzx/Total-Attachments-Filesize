@@ -1,5 +1,7 @@
 # Total Attachments Filesize Extension
 
+[![Build Status](https://travis-ci.org/dmzx/Total-Attachments-Filesize.svg?branch=master)](https://travis-ci.org/dmzx/Total-Attachments-Filesize)
+
 ## Install
 
 1. Download the latest release.
